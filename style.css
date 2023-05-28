@@ -1,0 +1,191 @@
+body {
+    margin: auto;
+}
+
+h2{
+    transition: 0.2s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    text-decoration: underline;
+    margin-left:20px;
+    color:white;
+    position: relative;
+    top:20px;
+}
+
+h2:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 40px;
+}
+
+.upper-bar {
+    width:100%;
+    height:200px; 
+    /* background-color: rgb(0, 116, 116); */
+    background-color: #94FFD1;
+}
+
+.upper-bar h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top:60px;
+    color:white;
+    font-size: 50px;
+}
+
+.upper-bar h4{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top:60px;
+    color:rgb(172, 172, 172);
+}
+
+.basic-navigator {
+    /* background-color: aquamarine; */
+    background-color: #6be8cb;
+    
+}
+
+/* .basic-navigator p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0px; 
+    text-align: center;
+} */
+
+
+.basic-navigator li {
+    display: inline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0px;
+    margin-right:400px;
+    height:fit-content;
+    width: fit-content;
+    text-decoration: underline;
+}
+
+.basic-navigator ol {
+    display: inline;
+    margin:0px;
+    position: relative;
+    left:225px;
+}
+
+.bar-presentation{
+    display: inline-block;
+    width:100%; 
+    height:450px;
+    /* background-color: rgb(33, 82, 82); */
+    background-color: #75D0FF;
+}
+
+.bar-presentation h2{
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative; 
+    top:20px;
+    margin-top:0px; 
+    margin-bottom: 0px;
+    margin-left: 20px;
+    padding:10px;
+    color: rgb(255, 255, 255);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bar-presentation h2:hover{
+    transition: 0.2s;
+    text-decoration: underline;
+    margin-left: 40px;
+}
+
+#interactive{
+    transition: 0.2s;
+    cursor:pointer;
+}
+
+#interactive:hover{
+    transition: 0.2s;
+    text-decoration: underline;
+    color:beige;
+}
+
+.bar-presentation p{
+    font-family: 'DIN Alternate Bold';
+    margin-left:40px;
+    color: white;
+    font-size: 20px;
+}
+
+.bar-presentation li {
+    transition: 0.2s;
+    font-family: 'DIN Alternate Bold';
+    margin-left:40px;
+    color: white;
+    font-size: 20px;
+}
+
+.bar-presentation li:hover {
+   transition: 0.2s;
+   cursor:pointer;
+   text-decoration: underline;
+   color:red;
+   margin-left: 20px;
+}
+
+.image-source{
+    display: inline-block;
+    margin: auto;
+    width:fit-content;
+    height:fit-content;
+    position: relative;
+    left:1000px;
+    bottom: 50px;
+}
+
+.image-source img{
+    display: inline-block;
+}
+
+
+.image-source q {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    right:228px;
+    top:20px;
+}
+
+.barre-carriere{
+    width:100%; 
+    height:300px; 
+    background-color:#7AE2F5;
+}
+
+.barre-carriere p{
+    position:relative; 
+    top:20px;
+    font-family: 'DIN Alternate Bold';
+    margin-left:40px;
+    color: white;
+    font-size: 20px;
+}
+
+.barre-fin {
+    width: 100%;
+    height:300px;
+    background-color: #81faf6;
+}
+
+.barre-fin p{
+    position:relative; 
+    top:20px;
+    font-family: 'DIN Alternate Bold';
+    margin-left:40px;
+    color: white;
+    font-size: 20px;
+}
